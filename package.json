@@ -2,7 +2,10 @@
   "name": "simple-api",
   "module": "index.ts",
   "type": "module",
-  "private": true,
+  "private": true,  
+  "scripts": {
+    "start": "bun run index.ts"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
